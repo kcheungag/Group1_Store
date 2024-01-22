@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A61C717C2B5D89B900072077 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61C717B2B5D89B900072077 /* main.swift */; };
+		A63598902B5DFE2000DBF757 /* IsPurchasable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A635988B2B5DFE2000DBF757 /* IsPurchasable.swift */; };
+		A63598912B5DFE2000DBF757 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A635988C2B5DFE2000DBF757 /* Store.swift */; };
+		A63598922B5DFE2000DBF757 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A635988D2B5DFE2000DBF757 /* Item.swift */; };
+		A63598932B5DFE2000DBF757 /* GiftCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A635988E2B5DFE2000DBF757 /* GiftCard.swift */; };
+		A63598942B5DFE2000DBF757 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A635988F2B5DFE2000DBF757 /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		A61C71782B5D89B900072077 /* group1_store */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = group1_store; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61C717B2B5D89B900072077 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A635988B2B5DFE2000DBF757 /* IsPurchasable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsPurchasable.swift; sourceTree = "<group>"; };
+		A635988C2B5DFE2000DBF757 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		A635988D2B5DFE2000DBF757 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A635988E2B5DFE2000DBF757 /* GiftCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftCard.swift; sourceTree = "<group>"; };
+		A635988F2B5DFE2000DBF757 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				A61C717B2B5D89B900072077 /* main.swift */,
+				A635988F2B5DFE2000DBF757 /* Customer.swift */,
+				A635988E2B5DFE2000DBF757 /* GiftCard.swift */,
+				A635988B2B5DFE2000DBF757 /* IsPurchasable.swift */,
+				A635988D2B5DFE2000DBF757 /* Item.swift */,
+				A635988C2B5DFE2000DBF757 /* Store.swift */,
 			);
 			path = group1_store;
 			sourceTree = "<group>";
@@ -120,7 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A63598922B5DFE2000DBF757 /* Item.swift in Sources */,
+				A63598912B5DFE2000DBF757 /* Store.swift in Sources */,
+				A63598902B5DFE2000DBF757 /* IsPurchasable.swift in Sources */,
+				A63598942B5DFE2000DBF757 /* Customer.swift in Sources */,
 				A61C717C2B5D89B900072077 /* main.swift in Sources */,
+				A63598932B5DFE2000DBF757 /* GiftCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

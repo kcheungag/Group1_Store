@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+class GiftCard {
+    var balance: Double
+
+    init(balance: Double = 10.0) {
+        self.balance = balance
+    }
+}
+
